@@ -1,0 +1,42 @@
+﻿#principalcontent {
+    width: 100%;
+    display: flex;
+}
+#menu{
+    margin-top:30px;
+}
+
+
+#primarycontent {
+    margin-top: 30px;
+    margin-left: 30px;
+    display: flex;
+    font-size: 14px;
+}
+
+    #primarycontent section {
+        margin-left: 5px;
+    }
+
+    #primarycontent div {
+        margin-right: 5px;
+    }
+
+#secondarycontent {
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+#media video {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+@media only screen and (max-width: 720px) {
+    /* For mobile phones: */
+    #principalcontent, #menu, #primarycontent div, #secondarycontent, #media, #header, #primarycontent, #secondarycontent, #iframe, #contenedor-candidatos, #contenedor-encuestas, #header, #mensaje, #encabezado {
+        width: 100%;
+    }
+}
+
