@@ -13,7 +13,8 @@ header {
     background: #bd9ef5;
     padding: auto 20px;
     color: #fff;
-    position: initial;
+    position: fixed;
+    z-index: 1000;
     
    
 
